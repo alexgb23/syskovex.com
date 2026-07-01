@@ -51,12 +51,12 @@ body {
   background-color: #070c14;
   background-image:
     linear-gradient(rgba(7, 12, 20, 0.68), rgba(7, 12, 20, 0.78)),
-    url("/fondoSiscovex.webp");
+    url("/fondoSyscovex.webp");
   background-image:
     linear-gradient(rgba(7, 12, 20, 0.68), rgba(7, 12, 20, 0.78)),
     image-set(
-      url("/fondoSiscovex.avif") type("image/avif"),
-      url("/fondoSiscovex.webp") type("image/webp")
+      url("/fondoSyskovex.avif") type("image/avif"),
+      url("/fondoSyskovex.webp") type("image/webp")
     );
   background-position: center;
   background-repeat: no-repeat;
