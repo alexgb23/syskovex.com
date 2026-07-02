@@ -43,18 +43,23 @@
 }
 
 .heroLanding__content {
-  width: min(980px, 100%);
-  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Separa el kicker, título, texto y botones */
+  max-width: 900px; /* Evita que el texto se estire demasiado */
+  width: 100%;
 }
 
 .heroLanding__kicker {
   display: inline-block;
   margin-bottom: 16px;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: #7dd3c7;
 }
+
 
 .heroLanding__title {
   margin: 0 0 20px;
@@ -62,7 +67,9 @@
   line-height: 0.95;
   font-weight: 800;
   text-wrap: balance;
+  color: #c5e8f8;
   text-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  padding: 0 12px;
 }
 
 .heroLanding__text {
@@ -81,10 +88,10 @@
 
 .heroLanding__actions {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 14px;
-  margin-top: 1.5rem;
+  gap: 16px; /* Espacio horizontal entre botones */
+  flex-wrap: wrap; /* Hace que se adapte a móviles si no caben juntos */
+  margin-top: 10px;
 }
 
 .heroLanding__link {

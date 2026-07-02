@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import HeroSection from "../../components/sections/heroSection/HeroSection";
+import HeroSection from "../../components/sections/herosection/HeroSection";
 import usePageTitle from "../../hooks/usePageTitle";
 
 function Home() {
   usePageTitle("Syskovex | Sitio oficial en construcción");
 
   const [countdown, setCountdown] = useState(10);
-  const portfolioUrl = "https://portfolioalexsys.netlify.app/";
+  const portfolioUrl = "https://alex.syskovex.com/";
 
   useEffect(() => {
     const interval = setInterval(() => {
